@@ -1,9 +1,0 @@
-{
-  "realm": "iot",
-  "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgSdlhOmvxgvIFOfOmI9Qt/yI7z9Xr9VA56nK8KBcTrwX7h6DGR2yg+UIAOkJp+9/VChM7DPHVusjj5vmcD7GCgwLUj0l0R+fUJuNggH9hVTpb8zKEPCC1K+dTSiRPfVVl/fC2+7dVUEB0VWMtGWAnpFujnFM00hlefnl9c1JgXsNZ2wYrm86cW+ko8b1Ee8RiLjV2vimzv99PxEu22dcX+PiuTjm2vgUFlwayRIeCUnAm9gX9RPw33kVqVACrUwXvNNlxXHFm93zED4kB2zMr76GgUDxCsAISk7DF+nU4Xn2S1zjO3jOaEtKHOykoUEB32/DiDxT1EfWiqSuhNo+VQIDAQAB",
-  "auth-server-url": "https://localhost:8443/auth",
-  "ssl-required": "all",
-  "resource": "iot",
-  "public-client": true,
-  "use-resource-role-mappings": false
-}
