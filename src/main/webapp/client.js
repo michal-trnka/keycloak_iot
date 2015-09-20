@@ -14,4 +14,19 @@ $(document).ready(function() {
 	        }
 	    })
 	}, 5000);
+	window.setInterval(function(){
+		$.ajax({
+			type: "GET",
+	        url: "//" + location.host + "/iot-hub-example/rest/movement/list",
+	        dataType: "json",
+	        success: function(data){
+	        	$("#movements").find("tr:gt(0)").remove();
+	        	$.each(data,function(i,line){
+	        		var date = new Date(line['time']);
+	        		var value = line['value'];
+	        		$('#movements tr:last').after('<tr><td>'+ date.toLocaleString() + '</td><td>' + value + '</td></tr>');
+	        	});
+	        }
+	    })
+	}, 5000);
 });
