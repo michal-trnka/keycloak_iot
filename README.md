@@ -31,7 +31,7 @@ This example serves as example of using keycloak for securing devices in the IoT
 You can view results of your sensors on address [server-address:port]/iot-hub-example/
 
 ##Manual usage
-There is nothing preventing you from connecting to hub manually HTTP calls.
+There is nothing preventing you from connecting to hub manually HTTP calls. Those changes will also appear on the main page, as the page gets informations via same REST endpoints.
 
 ###Authentication
 You can get your token on address [keycloak-address:port]/auth/realms/iot/protocol/openid-connect/token as described in keycloak documentation. After that you need to add "Authorization" header to ever request done on secured resources. You need to make separate authentication for each "sensor".
