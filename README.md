@@ -34,12 +34,12 @@ You can view results of your sensors on address [server-address:port]/iot-hub-ex
 There is nothing preventing you from connecting to hub manually HTTP calls.
 
 ###Authentication
-You can get your token on address [keycloak-address:port]/auth/realms/iot/protocol/openid-connect/token as described in keycloak documentation. After that you need to add "Authorization" header to ever request done on secured resources.
+You can get your token on address [keycloak-address:port]/auth/realms/iot/protocol/openid-connect/token as described in keycloak documentation. After that you need to add "Authorization" header to ever request done on secured resources. You need to make separate authentication for each "sensor".
 
 ###Movement management
 1. List of movements is obtained using GET method on [server-address:port]/iot-hub-example/rest/movement/list . This endpoint is public
-2. You can add movement using PUT method on [server-address:port]/iot-hub-example/rest/movement/add/{MovementDescription}
+2. You can add movement using POST method on [server-address:port]/iot-hub-example/rest/movement/add/{MovementDescription}
  
 ###Temperature management
 1. List of temperatures is obtained using GET method on [server-address:port]/iot-hub-example/rest/temperature/list . This endpoint is public
-2. You can add movement using PUT method on [server-address:port]/iot-hub-example/rest/temperature/add/{MovementDescription}
+2. You can add movement using POST method on [server-address:port]/iot-hub-example/rest/temperature/add/{MovementDescription}
