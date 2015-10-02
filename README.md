@@ -1,5 +1,5 @@
 #IoT security example
-This example serves as example of using keycloak for securing devices in the IoT. Application as it stands provides just central hub for services. For the complete overview I suggest to use it with https://github.com/slowercz/rpi_HC-SR501 and https://github.com/slowercz/rpi_DS18B20. For future I plan to add possibility to mock sensors, without actuall need for them and Raspberry Pi.
+This example serves as example of using keycloak for securing devices in the IoT. Application as it stands provides just central hub for services. For the complete overview I suggest to use it with https://github.com/slowercz/rpi_HC-SR501 and https://github.com/slowercz/rpi_DS18B20, in case you don't have needed Raspberry PI and sensors you can run mock sensors, which provides random data.
 
 #Requirements
 1. keycloak 1.5.0 Final (though possibly could run on 1.3+)
