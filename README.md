@@ -15,7 +15,7 @@ This example shows how to use keycloak to secure devices in the IoT. Application
 5. create users: "motion-sensor" and "temperature-sensor"
 6. assign motionSensor role to motion-sensor user and temperatureSensor to temperature-sensor
 7. set password for motion-sensor to "motSens" and for temperature-sensor to "tempSens"
-8. (optional) configure keycloak to use SSL
+8. (optional) configure keycloak to use SSL - in this case all addresses will start with protocol HTTPS, instead of HTTP
 9. generate  keycloak.json (watch for correct auth-server-url if you will try to access it from other computers and not only from localhost)
  
 ##Application
